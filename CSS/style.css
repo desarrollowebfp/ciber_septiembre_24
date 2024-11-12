@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+body {
+  background-color: black;
+  color: white;
+  padding: 20px;
+}
+
+p {
+  color: crimson;
+}
+
+li {
+  list-style: none;
+}
+
+#primertexto {
+  color: orange;
+  font-size: 20px;
+}
+
+.mayuscula {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
