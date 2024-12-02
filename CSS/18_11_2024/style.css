@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: calc(10px + 1vw);
+}
+
+p {
+  font-size: 2rem;
+}
+
+.box {
+  font-size: 10px;
+}
+
+.box > p {
+  font-size: 2em;
+}
+
+.caja {
+  width: 200px;
+  height: 200px;
+  border: 8px solid black;
+  padding: 40px;
+  margin: 20px;
+}
