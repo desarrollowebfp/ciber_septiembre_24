@@ -1,0 +1,10 @@
+.parrafo {
+  letter-spacing: 5px;
+  font-family: monospace;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
