@@ -1,0 +1,16 @@
+body {
+  min-height: 400vh;
+  background-color: whitesmoke;
+  color: black;
+}
+
+body.dark{
+  background-color: black;
+  color: whitesmoke;
+}
+
+h2 {
+  position: fixed;
+  top: 40px;
+}
+

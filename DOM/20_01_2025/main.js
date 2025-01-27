@@ -43,8 +43,10 @@ aboutMeSection.innerHTML = `
 const alimentos = ["Palmeras", "Yogur", "Coca Cola", "Pan", "Agua", "Manzana"];
 
 for (const alimento of alimentos) {
+  
   const p = document.createElement("p");
   p.className = "parrafo";
   p.textContent = alimento;
+  console.log(p)
   aboutMeSection.appendChild(p);
 }
