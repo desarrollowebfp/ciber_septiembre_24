@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  color: whitesmoke;
+  font-family: monospace;
+}
+
+li {
+  list-style: none;
+}
+
+header {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+header > img {
+  height: 80px;
+  width: auto;
+}
+
+main {
+  padding: 20px;
+  display:grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+main img {
+  width: 100%;
+  height: auto;
+}
+
+footer {
+  padding: 20px;
+  text-align: center;
+}
+
+.Valve{
+  color: green
+}
