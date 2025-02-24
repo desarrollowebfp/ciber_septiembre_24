@@ -1,0 +1,3 @@
+- DOM + JavaScript (proyectos divididos en varias clases)
+- 1 clase de katas
+- 1 de flex-grid

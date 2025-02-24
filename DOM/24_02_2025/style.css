@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: monospace;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+li {
+  padding: 4px 10px;
+  border: 1px dashed black;
+  min-width: 350px;
+}
+
+li:hover{
+  background-color: rgb(195, 195, 195);
+  cursor: pointer
+}
