@@ -1,0 +1,18 @@
+li {
+  display: flex;
+  gap: 10px;
+  cursor: pointer;
+}
+
+li::before {
+  content: "·";
+}
+
+span.completed {
+  text-decoration: line-through;
+  color: red;
+}
+
+#error{
+  color: red;
+}
